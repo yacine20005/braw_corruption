@@ -1,0 +1,11 @@
+# Exclure les environnements virtuels et fichiers temporaires
+.venv/
+__pycache__/
+*.pyc
+
+# Exclure le SDK Blackmagic complet (option recommandé)
+Blackmagic_RAW_SDK/
+
+# Ou, pour n’exclure que les dossiers problématiques (Mac, Win)
+Blackmagic_RAW_SDK/Mac/
+Blackmagic_RAW_SDK/Win/
